@@ -197,7 +197,7 @@ export const Nav = ({toggle}) => {
                        </NavItem>
                    </NavMenu>
                    <NavBtn > 
-                       <NavbtnLink to="/Login" >Get a Quote</NavbtnLink>
+                       <NavbtnLink to="/" >Get a Quote</NavbtnLink>
                    </NavBtn>
                </NavContainer>
             </Navbox>
