@@ -58,6 +58,12 @@ const NavLogo = styled(Link)`
     margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
+
+    &:hover{
+        
+        color: #fff;
+    }
+
 `
 const MobileIcon = styled.div`
     display: none;
@@ -100,6 +106,7 @@ const NavLinks = styled(Link)`
         border-bottom: 3px solid #fff;
         color: #fff;
     }
+
 `
 const NavBtn = styled.div`
     display: flex;
