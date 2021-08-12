@@ -26,6 +26,7 @@ const Navbox = styled.nav`
     font-size: 1.5rem;
     position: sticky;
     top: 0;
+    right: 0;left: 0;
     z-index: 10;
     overflow-x: hidden;
     margin-top: -80px;

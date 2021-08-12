@@ -59,6 +59,12 @@ const FooterContainer =styled.div`
         list-style: none;
         margin-left: -2rem;
     }
+    li{
+        font-size: 1.2rem;
+    }
+    h4{
+        font-size: 2rem;
+    }
 
     #Btn{
         width: 100%;

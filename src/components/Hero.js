@@ -18,6 +18,9 @@ const Content =styled.div`
     padding: 1.5rem 2rem;
     overflow: hidden;
      
+    @media screen and (max-height:674px){
+        height: 120vh;
+        }
 
 
 
@@ -29,6 +32,7 @@ const Content =styled.div`
         border-radius:  0;
         }
       
+        
 
 
     img{
@@ -54,6 +58,7 @@ const Desc = styled.div`
         right: 9%; 
         color: #fff;
         text-align: center;
+        font-size: 1.5rem;
         
        
         @media screen and (max-width:1024px){
@@ -66,6 +71,9 @@ const Desc = styled.div`
             width: 100%;
             font-size: 1.1rem;
             right: auto;
+        }
+        @media screen and (max-width:420px){
+        
         }
 
 

@@ -10,6 +10,11 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  p{
+    font-size: 1.1rem;
+  }
+ 
+
 `;
 
 export default GlobalStyle;

@@ -23,7 +23,7 @@ const  Content = styled.div`
         height: 60vh;
         }
         @media screen and (max-width:385px){
-        height: 90vh;
+        height: 92vh;
         }
       
 
