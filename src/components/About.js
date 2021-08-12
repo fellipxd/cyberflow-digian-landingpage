@@ -57,9 +57,14 @@ const Desc = styled.div`
             width: 90%;
         }
         @media screen and (max-width:468px){
-            left: auto; top: 3%;
+            left: auto; top: 10%;
             
         }
+        @media screen and (max-width:368px){
+            left: auto; top: 5%;
+            
+        }
+
 
         h3{
             font-weight: bold;
