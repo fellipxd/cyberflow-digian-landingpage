@@ -28,20 +28,28 @@ const CardWrapper = styled.div`
     flex-wrap: wrap;
     margin-top: 1.5rem;
     flex-direction:row ;
+    align-items: center;
+    justify-content: center;
     gap: 3rem;
     padding: 1rem 3rem;
+    width: 100%;
     
 `
 const CaseWrapper = styled.div`
 position: relative;
+align-items: center;
+
+
+
     #Casecard{
         width: 28rem;
+        margin: auto;
         flex: 1 1 28rem ;
         text-align: center;
 
        
         @media screen and (max-width:1024px){
-       width: 20rem;
+       width: 15rem;
     }
     @media screen and (max-width:768px){
             width: 15rem;

@@ -38,20 +38,22 @@ const  Content = styled.div`
 `
 
 const Desc = styled.div`
-    width: 80%;
+    width: 40%;
     position: absolute;
         left: 15%; top: 40%;
         color: #fff;
         text-align: left;
+        z-index: 10;
        
         @media screen and (max-width:1024px){
-           font-size: 2rem;
+           font-size: 1.5rem;
            top: 25%;
     }
-    @media screen and (max-width:768px){
-            left: auto; top: 20%;
+    @media screen and (max-width:1000px){
+            left: auto; top: 10%;
             margin: auto;
-            font-size: 1rem;
+            font-size: 1.2rem;
+            width: 90%;
         }
 
         h3{
