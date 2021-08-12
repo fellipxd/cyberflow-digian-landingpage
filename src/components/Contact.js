@@ -31,6 +31,7 @@ const FormContainer =styled.div`
     @media screen and (max-width:768px){
           width: 100%;
           margin: auto;
+          padding: 1rem;
        
         }
    
@@ -65,11 +66,13 @@ const FormContainer =styled.div`
 
 const MapWrapper =styled.div`
     width: 50vw;
+    
     padding: 2rem;
 
 
     @media screen and (max-width:768px){
           width: 100%;
+          height: 10%;
          
        
         }
@@ -86,7 +89,8 @@ const MapWrapper =styled.div`
 
 const containerStyle = {
     width: '100%',
-    height: '100%'
+    height: '60vh'
+   
   };
   
   const center = {
