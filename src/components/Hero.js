@@ -46,7 +46,7 @@ const Content =styled.div`
 const Desc = styled.div`
     width: 35%;
     position: absolute;
-        right: 15%; 
+        right: 9%; 
         color: #fff;
         text-align: center;
         
