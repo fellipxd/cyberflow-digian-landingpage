@@ -7,7 +7,7 @@ import hero from '../images/slider-img.png'
 
 const Content =styled.div`
     background: #383CC1;
-   
+     height: 80vh;
     width: 100%;
     border-radius: 0 0 50% 0;
     display: flex;
