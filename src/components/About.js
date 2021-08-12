@@ -43,20 +43,25 @@ const Desc = styled.div`
         left: 15%; top: 40%;
         color: #fff;
         text-align: left;
-        @media screen and (max-width:768px){
-            left: auto; top: 20%;
-            margin: auto;
-        }
+       
         @media screen and (max-width:1024px){
            font-size: 2rem;
            top: 25%;
     }
+    @media screen and (max-width:768px){
+            left: auto; top: 20%;
+            margin: auto;
+            font-size: 1rem;
+        }
 
         h3{
             font-weight: bold;
             @media screen and (max-width:1024px){
              font-size: 3rem;
     }
+    @media screen and (max-width:768px){
+           font-size: 2rem;
+        }
         }
         #contact-btn{
             background: rgba(18, 14, 67, 0.4);
@@ -66,6 +71,9 @@ const Desc = styled.div`
             @media screen and (max-width:1024px){
              font-size: 1.5rem;
     }
+    @media screen and (max-width:768px){
+           font-size: 1rem;
+        }
         }
 `
 

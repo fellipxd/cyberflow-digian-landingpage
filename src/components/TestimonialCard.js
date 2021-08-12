@@ -80,6 +80,7 @@ font-size: 1rem;
 `
 const Wrapper = styled.div`
     padding: 4rem;
+    
     width: 100%;
     @media screen and (max-width:1024px){
         padding: 10rem;
@@ -109,7 +110,7 @@ export default function Testimonial()  {
 
 
             <SwiperContainer id='swiper-container'>
-        <Swiper  pagination={{ "dynamicBullets": true}}spaceBetween={10} centeredSlides={true} autoplay={{"delay": 2000, "disableOnInteraction": false}} loop={true} slidesPerView={1} className='myswiper'>
+        <Swiper  pagination={{ "dynamicBullets": true}}spaceBetween={30} centeredSlides={true} autoplay={{"delay": 2000, "disableOnInteraction": false}} loop={true} slidesPerView={1} className='myswiper'>
        {testimonial.map((testimonial, index) => 
                  <SwiperSlide  id='slide' key={testimonial.id}> 
       <Wrapper>

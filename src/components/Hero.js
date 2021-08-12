@@ -16,6 +16,7 @@ const Content =styled.div`
     align-items: center;
     justify-content: center;
     padding: 1.5rem 2rem;
+    overflow: hidden;
 
     @media screen and (max-width:768px){
         border-radius: 0;
@@ -49,14 +50,17 @@ const Desc = styled.div`
         color: #fff;
         text-align: center;
         
-        @media screen and (max-width:768px){
-            position: relative;
-            width: 80%;
-            right: auto;
-        }
+       
         @media screen and (max-width:1024px){
             width: 80%;
             font-size: 2rem;
+            
+        }
+        @media screen and (max-width:768px){
+            position: relative;
+            width: 100%;
+            font-size: 1rem;
+            right: auto;
         }
 
 
@@ -66,7 +70,7 @@ const Desc = styled.div`
             font-weight: bold;
 
             @media screen and (max-width:1024px){
-               font-size: 3.5rem;
+              
     }
         }
         #contact-btn{
@@ -80,6 +84,9 @@ const Desc = styled.div`
         @media screen and (max-width:1024px){
        font-size: 1.5rem;
     }
+    @media screen and (max-width:468px){
+           font-size: 1rem;
+        }
         }
 `
 
