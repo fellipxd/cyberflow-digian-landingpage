@@ -18,7 +18,7 @@ const Content =styled.div`
     padding: 1.5rem 2rem;
     overflow: hidden;
      
-    @media screen and (max-height:674px){
+    @media screen and (max-height:654px){
         height: 120vh;
         }
 

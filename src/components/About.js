@@ -52,8 +52,11 @@ const Desc = styled.div`
        
         @media screen and (max-width:1024px){
            font-size: 1.1rem;
-           top: 15%;
+           top: 25%;
            width: 80%;
+    }
+    @media screen and (max-width:768px){
+           top: 13%;
     }
    
         @media screen and (max-width:468px){
