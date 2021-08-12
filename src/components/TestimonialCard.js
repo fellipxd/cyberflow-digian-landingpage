@@ -84,7 +84,7 @@ const Wrapper = styled.div`
     justify-content: center;
     width: 100%;
     @media screen and (max-width:1024px){
-        padding: 4rem 1rem;
+        padding: 7rem 1rem;
     }
     
     
