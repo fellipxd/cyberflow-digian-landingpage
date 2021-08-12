@@ -7,7 +7,7 @@ import hero from '../images/slider-img.png'
 
 const Content =styled.div`
     background: #383CC1;
-    height: 100vh;
+   
     width: 100%;
     border-radius: 0 0 50% 0;
     display: flex;
@@ -17,9 +17,15 @@ const Content =styled.div`
     justify-content: center;
     padding: 1.5rem 2rem;
     overflow: hidden;
+     
 
+
+
+
+   
     @media screen and (max-width:768px){
         border-radius: 0;
+        padding: 6rem  2rem;
         }
         @media screen and (max-width:1024px){
             border-radius: 0 0 25% 0;
@@ -33,9 +39,9 @@ const Content =styled.div`
         left: 5%; top: 15%;
 
         @media screen and (max-width:1024px){
-            opacity: .3;
+            opacity: .2;
             left: auto; 
-            width: 100%;
+            
         }
 
        
@@ -59,7 +65,7 @@ const Desc = styled.div`
         @media screen and (max-width:768px){
             position: relative;
             width: 100%;
-            font-size: 1rem;
+            font-size: 1.1rem;
             right: auto;
         }
 
@@ -82,11 +88,9 @@ const Desc = styled.div`
                 background: rgba(18, 14, 67, 0.8);
         }
         @media screen and (max-width:1024px){
-       font-size: 1.5rem;
+       font-size: 1.1rem;
     }
-    @media screen and (max-width:468px){
-           font-size: 1rem;
-        }
+   
         }
 `
 

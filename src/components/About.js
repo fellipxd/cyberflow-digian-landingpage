@@ -8,19 +8,24 @@ import about from '../images/about-img.png';
 const  Content = styled.div`
    
     background: #383CC1;
-    height: 100vh;
+    height: 80vh;
+    width: 100%;
     border-radius: 30% 0 30% 0;
     display: flex;
     flex-direction: row;
     position: relative;
-    top: 100%S;
+    
     align-items: center;
     justify-content: center;
     padding: 1.5rem 2rem;
     @media screen and (max-width:1024px){
         border-radius: 0;
-      
+        height: 60vh;
         }
+        @media screen and (max-width:468px){
+        height: 90vh;
+        }
+      
 
     img{
         display: inline-block;
@@ -46,22 +51,14 @@ const Desc = styled.div`
         z-index: 10;
        
         @media screen and (max-width:1024px){
-           font-size: 1.5rem;
-           top: 25%;
-           width: 70%;
+           font-size: 1.1rem;
+           top: 15%;
+           width: 80%;
     }
-    @media screen and (max-width:1000px){
-            left: auto; top: 25%;
-            margin: auto;
-            font-size: 1.2rem;
-            width: 90%;
-        }
+   
         @media screen and (max-width:468px){
-            left: auto; top: 10%;
-            
-        }
-        @media screen and (max-width:368px){
             left: auto; top: 5%;
+            font-size: 1rem;
             
         }
 
@@ -69,11 +66,10 @@ const Desc = styled.div`
         h3{
             font-weight: bold;
             @media screen and (max-width:1024px){
-             font-size: 3rem;
+             font-size: 2rem;
+             
     }
-    @media screen and (max-width:768px){
-           font-size: 2rem;
-        }
+   
         }
         #contact-btn{
             background: rgba(18, 14, 67, 0.4);
@@ -81,11 +77,9 @@ const Desc = styled.div`
             outline: none;
 
             @media screen and (max-width:1024px){
-             font-size: 1.5rem;
+             font-size: 1rem;
     }
-    @media screen and (max-width:768px){
-           font-size: 1rem;
-        }
+   
         }
 `
 
