@@ -88,7 +88,7 @@ const Desc = styled.div`
                 background: rgba(18, 14, 67, 0.8);
         }
         @media screen and (max-width:1024px){
-       font-size: 1.1rem;
+       font-size: 1.15rem;
     }
    
         }
