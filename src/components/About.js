@@ -25,6 +25,9 @@ const  Content = styled.div`
         @media screen and (max-width:385px){
         height: 92vh;
         }
+        @media screen and (max-height:815px){
+        height: 80vh;
+        }
       
 
     img{
