@@ -39,13 +39,14 @@ position: relative;
         flex: 1 1 28rem ;
         text-align: center;
 
-        @media screen and (max-width:768px){
-            width: 20rem;
-            
-        }
+       
         @media screen and (max-width:1024px){
        width: 20rem;
     }
+    @media screen and (max-width:768px){
+            width: 15rem;
+            
+        }
         
     }
 `
