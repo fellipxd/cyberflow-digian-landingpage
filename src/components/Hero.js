@@ -26,10 +26,9 @@ const Content =styled.div`
     @media screen and (max-width:768px){
         border-radius: 0;
         padding: 6rem  2rem;
+        border-radius:  0;
         }
-        @media screen and (max-width:1024px){
-            border-radius: 0 0 25% 0;
-        }
+      
 
 
     img{

@@ -22,7 +22,7 @@ const  Content = styled.div`
         border-radius: 0;
         height: 60vh;
         }
-        @media screen and (max-width:468px){
+        @media screen and (max-width:385px){
         height: 90vh;
         }
       
