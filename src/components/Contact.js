@@ -38,6 +38,7 @@ const FormContainer =styled.div`
     form{
         display: flex;
         flex-direction: column;
+        box-sizing: border-box;
     }
     input{
         padding: 1rem 2rem;
@@ -45,6 +46,9 @@ const FormContainer =styled.div`
     #input{
         padding: 1rem 2rem;
         margin-top: 2rem;
+        @media screen and (max-width:1024px){
+           margin-top: 3rem;
+          }
     }
     textarea{
         min-height: 200px;

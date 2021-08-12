@@ -26,7 +26,10 @@ const FooterContainer =styled.div`
         border: none;
      }
 
-     
+     @media screen and (max-width:1024px){
+           border-radius: 25% 0 0 0;
+           padding: 0;
+        }
 
     @media screen and (max-width:768px){
         flex-direction: column;
@@ -43,6 +46,9 @@ const FooterContainer =styled.div`
 
     p{
         width: 300px;
+        @media screen and (max-width:1024px){
+           width: 250px;
+        }
     }
     a{
         text-decoration: none;
@@ -77,6 +83,7 @@ const Wrapper =styled.div`
     @media screen and (max-width:768px){
         flex-direction: column;
         }
+       
 
 
 `

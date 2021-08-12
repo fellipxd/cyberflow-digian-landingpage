@@ -20,6 +20,9 @@ const Content =styled.div`
     @media screen and (max-width:768px){
         border-radius: 0;
         }
+        @media screen and (max-width:1024px){
+            border-radius: 0 0 25% 0;
+        }
 
 
     img{
@@ -28,11 +31,13 @@ const Content =styled.div`
         position: absolute;
         left: 5%; top: 15%;
 
-        @media screen and (max-width:768px){
-            opacity: .2;
+        @media screen and (max-width:1024px){
+            opacity: .3;
             left: auto; 
             width: 100%;
         }
+
+       
         
     }
 `
@@ -49,12 +54,20 @@ const Desc = styled.div`
             width: 80%;
             right: auto;
         }
+        @media screen and (max-width:1024px){
+            width: 80%;
+            font-size: 2rem;
+        }
 
 
 
 
         h2{
             font-weight: bold;
+
+            @media screen and (max-width:1024px){
+               font-size: 3.5rem;
+    }
         }
         #contact-btn{
             background: rgba(18, 14, 67, 0.4);
@@ -64,6 +77,9 @@ const Desc = styled.div`
             @media screen and (max-width:768px){
                 background: rgba(18, 14, 67, 0.8);
         }
+        @media screen and (max-width:1024px){
+       font-size: 1.5rem;
+    }
         }
 `
 

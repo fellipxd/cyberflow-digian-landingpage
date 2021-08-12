@@ -68,7 +68,7 @@ const NavLogo = styled(Link)`
 const MobileIcon = styled.div`
     display: none;
 
-    @media screen and (max-width:768px){
+    @media screen and (max-width:1024px){
         display: block;
         position: absolute;
         top: -20%; right: 0;
@@ -85,7 +85,7 @@ const NavMenu = styled.ul`
     text-align:center;
     margin-right: -22px;
     
-    @media screen and (max-width:768px){
+    @media screen and (max-width:1024px){
         display: none;
     }
 `
@@ -112,7 +112,7 @@ const NavBtn = styled.div`
     display: flex;
     align-items: center;
 
-    @media screen and (max-width:768px){
+    @media screen and (max-width:1024px){
         display: none;
     }
 `

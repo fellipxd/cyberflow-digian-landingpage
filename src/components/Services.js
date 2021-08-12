@@ -25,6 +25,9 @@ const CardWrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
     margin-top: 1.5rem;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
     flex-direction:row ;
     gap: 3rem;
     padding: 1rem 3rem;

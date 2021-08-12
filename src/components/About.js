@@ -17,7 +17,7 @@ const  Content = styled.div`
     align-items: center;
     justify-content: center;
     padding: 1.5rem 2rem;
-    @media screen and (max-width:768px){
+    @media screen and (max-width:1024px){
         border-radius: 0;
       
         }
@@ -30,6 +30,9 @@ const  Content = styled.div`
         @media screen and (max-width:768px){
         opacity: .1;
         }
+        @media screen and (max-width:1024px){
+       opacity: .15;
+    }
         
     }
 `
@@ -44,15 +47,25 @@ const Desc = styled.div`
             left: auto; top: 20%;
             margin: auto;
         }
+        @media screen and (max-width:1024px){
+           font-size: 2rem;
+           top: 25%;
+    }
 
-        h2{
+        h3{
             font-weight: bold;
+            @media screen and (max-width:1024px){
+             font-size: 3rem;
+    }
         }
         #contact-btn{
             background: rgba(18, 14, 67, 0.4);
-            
             border: none;
             outline: none;
+
+            @media screen and (max-width:1024px){
+             font-size: 1.5rem;
+    }
         }
 `
 

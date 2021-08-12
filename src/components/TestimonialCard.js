@@ -28,8 +28,7 @@ const TestimonialContainer = styled.div`
        align-items: center;
        justify-content: center;
        margin: auto;
-       position: relative;
-       top: 100%;
+      
     }
 `
 const SwiperContainer = styled.div`
@@ -82,6 +81,9 @@ font-size: 1rem;
 const Wrapper = styled.div`
     padding: 4rem;
     width: 100%;
+    @media screen and (max-width:1024px){
+        padding: 10rem;
+    }
     
     
 `
