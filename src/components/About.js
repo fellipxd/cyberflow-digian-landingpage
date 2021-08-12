@@ -50,10 +50,14 @@ const Desc = styled.div`
            top: 25%;
     }
     @media screen and (max-width:1000px){
-            left: auto; top: 10%;
+            left: auto; top: 25%;
             margin: auto;
             font-size: 1.2rem;
             width: 90%;
+        }
+        @media screen and (max-width:468px){
+            left: auto; top: 15%;
+            
         }
 
         h3{
