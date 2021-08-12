@@ -19,7 +19,7 @@ const Content =styled.div`
     padding: 1.5rem 2rem;
 
     @media screen and (max-width:768px){
-            margin-top: 15rem;
+            margin-top: 2rem;
         }
 
 `

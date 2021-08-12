@@ -48,6 +48,7 @@ const Desc = styled.div`
         @media screen and (max-width:1024px){
            font-size: 1.5rem;
            top: 25%;
+           width: 70%;
     }
     @media screen and (max-width:1000px){
             left: auto; top: 25%;
@@ -56,7 +57,7 @@ const Desc = styled.div`
             width: 90%;
         }
         @media screen and (max-width:468px){
-            left: auto; top: 15%;
+            left: auto; top: 3%;
             
         }
 
