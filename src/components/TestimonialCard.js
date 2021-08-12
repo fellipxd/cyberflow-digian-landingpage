@@ -80,10 +80,11 @@ font-size: 1rem;
 `
 const Wrapper = styled.div`
     padding: 4rem;
-    
+    align-items: center;
+    justify-content: center;
     width: 100%;
     @media screen and (max-width:1024px){
-        padding: 10rem;
+        padding: 4rem 1rem;
     }
     
     
